@@ -9,10 +9,16 @@
     background-color: pink;
 }
 .deb-col-2{
-    background-color: green;
+    background-color: lightgreen;
 }
 .deb-col-3{
     background-color: red;
+}
+.deb-col-4{
+    background-color: blue;
+}
+.deb-col-5{
+    background-color: gray;
 }
 .deb-text-white{
 
@@ -41,6 +47,10 @@ header{
 }
 
 /* header/NAV */
+nav{
+    padding: 10px;
+    height: 100%;
+}
 .menu-nav-icon{
     
 }
@@ -49,6 +59,32 @@ header{
 }
 .nav-icon-text{
    font-size: .875rem; 
+}
+/* header/MENU MOBILE */
+.playlist li{
+    list-style: none;
+}
+
+/* header/APP&USER */
+
+/* app */
+.app-and-user{
+    
+}
+.app-icon{
+    width: 30px;
+    display: block;
+}
+/* user */
+.user-face{
+    border: solid 1px white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+.user-icon{
+    width: 20px;
+    object-fit: cover;
 }
 
 
@@ -64,10 +100,11 @@ main{
     height: 100%;
     padding-top: 50px;
     /* background-color: rgb(20, 25, 34) */
+    overflow-y: scroll;
 }
 /* main/UPGRADE BAR */
 .upgrade-bar{
-    width: 100%;
+    width: calc(100% - 200px);
     height: 50px;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
@@ -75,6 +112,8 @@ main{
     right: 0;
     left: 200px;
     justify-content: center;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 .upgrade-button{
     font-size: .875rem;
@@ -82,8 +121,41 @@ main{
     border: 1px solid white;
     border-radius: 20px;
     padding: .3125rem .9375rem;
-    background-color: yellow;
 }
+/* mai/MAIN Page */
+.box-album{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 50px;
+}
+.cover-album{
+    width: 150px;
+    height: 150px;
+    position: relative
+}
+.play-album{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;    
+}
+.play-album > i{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* FINE MAIN */
 
 

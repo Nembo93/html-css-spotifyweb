@@ -34,36 +34,72 @@
             <!-- header/NAV -->
             <nav>
                 <!-- Nav menu sempre visibile -->
-                <div class="menu-nav">
-                    <div class="menu-nav-item flex align">
-                        <div class="menu-nav-icon">
-                            <img class="nav-icon-img" src="img/home.svg" alt="">
+                <div>
+                    <div class="menu-nav">
+                        <div class="menu-nav-item flex align">
+                            <div class="menu-nav-icon">
+                                <img class="nav-icon-img" src="img/home.svg" alt="">
+                            </div>
+                            <span class="nav-icon-text">Home</span>
                         </div>
-                        <span class="nav-icon-text">Home</span>
+                        <div class="menu-nav-item flex align">
+                            <div class="menu-nav-icon">
+                                <img class="nav-icon-img" src="img/search.svg" alt="">
+                            </div>
+                            <span class="nav-icon-text">Search</span>
+                        </div>
+                        <div class="menu-nav-item flex align">
+                            <div class="menu-nav-icon">
+                                <img class="nav-icon-img" src="img/libreria.svg" alt="">
+                            </div>
+                            <span class="nav-icon-text">Library</span>
+                        </div>
                     </div>
-                    <div class="menu-nav-item flex align">
-                        <div class="menu-nav-icon">
-                            <img class="nav-icon-img" src="img/search.svg" alt="">
+
+                    <!-- Nav menu non visibile sotto il 600px -->
+                    <div class="menu-nav-mobile">
+                        <h5>PLAYLIST</h5>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-square-plus"></i>
+                            Crea Playlist
+                            <ul class="playlist">
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                            </ul> 
                         </div>
-                        <span class="nav-icon-text">Search</span>
-                    </div>
-                    <div class="menu-nav-item flex align">
-                        <div class="menu-nav-icon">
-                            <img class="nav-icon-img" src="img/libreria.svg" alt="">
-                        </div>
-                        <span class="nav-icon-text">Library</span>
                     </div>
                 </div>
 
-                <!-- Nav menu non visibile sotto il 600px -->
-                <div class="menu-nav-mobile">
-                    <h6>PLAYLIST</h6>
-                    <div></div>
+                <!-- Applicazione & Utente -->
+                    <!-- App -->
+                <div class="app-and-user deb-col-4">
+                    <div class="app flex align">
+                        <div>
+                            <a href="">
+                                <img class="app-icon" src="img/download.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="app-text">Instal app</div>
+                    </div>
 
+                    <hr>
+                    <!-- Utente -->
+                    <div class="user flex align">
+                        <div class="user-face">
+                            <img class="user-icon" src="img/profile.svg" alt="">
+                        </div>
+                        <div class="user-name">John Doe</div>
+                    </div>
                 </div>
 
             </nav>
         </header>
+        
         <!-- FINE HEADER  -->
 
         <!-- MAIN -->
@@ -71,7 +107,22 @@
             <div class="upgrade-bar flex align">
                 <a class="upgrade-button" href="">EFFETTUA L'UPGRADE</a>
             </div>
-            <h1>MAIN</h1>
+            <!--Spotify Main Page  -->
+            <div class="main-page">
+                <div class="main-menu deb-col-5">in evidenza</div>
+
+                <div class="box-album">
+                    <div class="cover-album">
+                        <img src="img/metal_lifting.jpg" alt="">
+                        <div class="play-album">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
         </main>
         <!-- FINE MAIN  -->
 

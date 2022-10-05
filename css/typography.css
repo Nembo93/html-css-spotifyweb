@@ -10,3 +10,9 @@ body{
 .text-col-white{
     color: white;
 }
+
+/* UPGRADE BAR */
+.upgrade-bar a{
+    text-decoration: none;
+    font-size: 10px;
+}
