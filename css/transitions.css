@@ -1,0 +1,11 @@
+/* ON-HOVER ALBUM */
+.cover-album:hover .play-album{
+    display: block;
+}
+.cover-album{
+    transition: filter;
+}
+.cover-album:hover{
+    filter: grayscale(3);
+    filter: brightness(50%);
+}
