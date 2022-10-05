@@ -6,10 +6,13 @@
 
 /* Debug */
 .deb-col-1{
-    background-color: red;
+    background-color: pink;
 }
 .deb-col-2{
     background-color: green;
+}
+.deb-col-3{
+    background-color: red;
 }
 .deb-text-white{
 
@@ -22,6 +25,35 @@ header{
     width: 200px;
     height: 100%;
 }
+/* header/LOGO */
+.logo{
+    height: 50px;
+}
+.logo-icon{
+  width: 130px;
+}
+.logo-box-big{
+    width: 100%;
+    text-align: center;
+}
+.logo-box-small{
+    display: none;
+}
+
+/* header/NAV */
+.menu-nav-icon{
+    
+}
+.nav-icon-img{
+    width: 20px;
+}
+.nav-icon-text{
+   font-size: .875rem; 
+}
+
+
+
+
 /* FINE HEADER */
 
 
@@ -42,6 +74,15 @@ main{
     top: 0;
     right: 0;
     left: 200px;
+    justify-content: center;
+}
+.upgrade-button{
+    font-size: .875rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: .3125rem .9375rem;
+    background-color: yellow;
 }
 /* FINE MAIN */
 

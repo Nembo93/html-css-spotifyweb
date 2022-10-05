@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/commons.css">
     
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -21,22 +22,50 @@
     <div class="container">
 
         <!-- HEADER -->
-        <header class="deb-col-1">
-            <div class="logo-box">
-                <div>
-                    <img src="" alt="">
+        <header class="deb-col-3">
+            <div class="logo deb-col-1">
+                <div class="logo-box-big">
+                    <img class="logo-icon" src="img/logo.svg" alt="">
+                </div>                    
+                <div class="logo-box-small">
+                    <img src="img/logo-small.svg" alt="">
                 </div>
             </div>
+            <!-- header/NAV -->
             <nav>
+                <!-- Nav menu sempre visibile -->
+                <div class="menu-nav">
+                    <div class="menu-nav-item flex align">
+                        <div class="menu-nav-icon">
+                            <img class="nav-icon-img" src="img/home.svg" alt="">
+                        </div>
+                        <span class="nav-icon-text">Home</span>
+                    </div>
+                    <div class="menu-nav-item flex align">
+                        <div class="menu-nav-icon">
+                            <img class="nav-icon-img" src="img/search.svg" alt="">
+                        </div>
+                        <span class="nav-icon-text">Search</span>
+                    </div>
+                    <div class="menu-nav-item flex align">
+                        <div class="menu-nav-icon">
+                            <img class="nav-icon-img" src="img/libreria.svg" alt="">
+                        </div>
+                        <span class="nav-icon-text">Library</span>
+                    </div>
+                </div>
+
+                <!-- Nav menu non visibile sotto il 600px -->
+                
 
             </nav>
         </header>
         <!-- FINE HEADER  -->
 
         <!-- MAIN -->
-        <main>
-            <div class="upgrade-bar">
-                <span>UPGRADE BAR</span>
+        <main class="deb-col-2">
+            <div class="upgrade-bar flex align">
+                <a class="upgrade-button" href="">EFFETTUA L'UPGRADE</a>
             </div>
             <h1>MAIN</h1>
         </main>
