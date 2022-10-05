@@ -2,3 +2,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.text-col-gray{
+    color: gray;
+}
+.text-col-white{
+    color: white;
+}
