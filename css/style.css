@@ -59,8 +59,8 @@ nav{
     justify-content: space-between;
     height: calc(100% - 50px);
 }
-.menu-nav-icon{
-    
+.menu-nav-item{
+    margin-bottom: 5px;
 }
 .nav-icon-img{
     width: 20px;
@@ -69,28 +69,48 @@ nav{
    font-size: .875rem; 
 }
 /* header/MENU NAV PLAYLIST */
+.menu-nav-playlist h5{
+    margin-bottom: 5px;
+}
+.menu-nav-playlist > i{
+    margin-bottom: 10px;
+}
 .playlist li{
     list-style: none;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 /* header/APP&USER */
 
 /* app */
-
+.app{
+    margin-bottom: 5px;
+}
 .app-icon{
-    width: 30px;
+    width: 25px;
     display: block;
 }
+.app-text{
+    font-size: 14px;
+}
 /* user */
+.user{
+    margin-top: 5px;
+}
 .user-face{
     border: solid 1px white;
     background-color: gray;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
 }
 .user-icon{
-    width: 20px;
+    width: 15px;
     object-fit: cover;
+}
+.user-name{
+    margin-left: 5px;
+    font-size: 14px;
 }
 
 
@@ -137,6 +157,9 @@ main{
     flex-wrap: wrap;
 }
 /* mai/ALBUM & PLAYLIST */
+.section-playlist-title{
+    margin-bottom: 20px;
+}
 
 .riga-album{
     width: 100%;
@@ -189,13 +212,16 @@ main{
 
 /* FOOTER */
 
-/* footer left */
 footer{
     width: 100%;
     height: 100px;
     background-color: gray;
     z-index: 10;
 }
+.footer-side-i{
+    font-size: 15px;
+}
+/* footer left */
 .footer-left{
     width: 30%;
     padding-left: 10px;
