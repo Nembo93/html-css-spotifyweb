@@ -188,9 +188,81 @@ main{
 
 
 /* FOOTER */
+
+/* footer left */
 footer{
     width: 100%;
     height: 100px;
     background-color: gray;
     z-index: 10;
+}
+.footer-left{
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.copertina-brano{
+    width: 40px;
+    margin-left: 10px;
+}
+.nome-artista{
+    margin-left: 10px;
+}
+.footer-left-icon i{
+    margin-right: 10px;
+}
+
+/* footer middle */
+/* footer middle/music bar */
+
+.footer-middle{
+    width: 40%;
+}
+/* music bar top */
+.play-music-bar i{
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: center;
+    padding-top: 15px;
+}
+
+
+/* music bar bottom */
+.time-song{
+    padding-top: 5px;
+}
+.listening-time{
+    width: 20%;
+}
+.listen-bar{
+    width: 60%;
+    height: 5px;
+    background-color: red;
+}
+.total-time{
+    width: 20%;
+    text-align: right;
+}
+
+.listned{
+    width: 20%;
+    height: 5px;
+    background-color: white;
+}
+.to-listen{
+    width: 80%;
+    height: 5px;
+    background-color: blue;
+}
+
+
+/* footer right */
+.footer-right{
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+.footer-right i{
+    margin-right: 10px;
 }
