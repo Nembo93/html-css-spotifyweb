@@ -1,0 +1,18 @@
+/* MOBILE LAYOUT */
+@media screen and (max-width: 600px) {
+    
+    /* Comportamenti dimensioni */
+    header{
+        width: 50px;
+    }
+
+
+
+
+    .mobile-no-wiew{
+        display: none;
+    }
+    .mobile-wiew{
+        display: block;
+    }
+}
