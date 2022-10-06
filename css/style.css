@@ -158,10 +158,9 @@ main{
 }
 /* mai/ALBUM & PLAYLIST */
 .section-playlist-title{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
-.riga-album{
+.riga-album.album1{
     width: 100%;
     justify-content: space-around;
 }
@@ -189,7 +188,9 @@ main{
     font-size: 50px;
     color: white;
 }
-
+.album1, .album2, .album3{
+    margin-bottom: 20px;
+}
 
 
 
