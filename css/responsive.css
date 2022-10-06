@@ -1,3 +1,42 @@
+/* DESKTOP DA 701px A 1100px */
+@media screen and (max-width: 1100px){
+    .box-album{
+        width: calc(100% / 4 - 20px);
+    }
+    .cover-album{
+        max-width: 150px;
+    }
+    .riga-album{
+        justify-content: left;
+    }
+    
+}
+
+
+
+
+
+/* TABLET DA 601px A 700px */
+@media screen and (max-width: 700px){
+    .box-album{
+        width: calc(100% / 2 - 20px);
+    }
+    .cover-album{
+        max-width: 150px;
+    }
+    .riga-album{
+        justify-content: left;
+    }
+    
+}
+
+
+
+
+
+
+
+
 /* MOBILE LAYOUT */
 @media screen and (max-width: 600px) {
     
@@ -5,10 +44,6 @@
     header{
         width: 50px;
     }
-
-
-
-
     .mobile-no-wiew{
         display: none;
     }

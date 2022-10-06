@@ -12,7 +12,7 @@
     background-color: lightgreen;
 }
 .deb-col-3{
-    background-color: red;
+    background-color: lightskyblue;
 }
 .deb-col-4{
     background-color: blue;
@@ -136,16 +136,24 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-/* mai/MAIN PAGE */
+/* mai/ALBUM & PLAYLIST */
+
+.riga-album{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 .box-album{
-    width: 400px;
-    height: 400px;
     background-color: aqua;
-    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    width: calc(100% / 6 - 20px);
 }
 .cover-album{
-    width: 150px;
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
+    max-width: 150px;
     position: relative
 }
 .play-album{
@@ -156,17 +164,18 @@ main{
     transform: translate(-50%, -50%);
     display: none;    
 }
-
 .play-album a > i{
     font-size: 50px;
     color: white;
 }
 
-.prova{
+
+
+/* .prova{
     width: 200px;
     height: 200px;
     background-color: bisque;
-}
+} */
 
 
 
