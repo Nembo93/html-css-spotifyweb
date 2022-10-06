@@ -140,21 +140,19 @@ main{
 
 .riga-album{
     width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px;
+    justify-content: space-around;
 }
 .box-album{
     background-color: aqua;
-    text-align: center;
-    margin: 10px;
-    width: calc(100% / 6 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% / 6);
 }
 .cover-album{
     /* width: 150px;
     height: 150px; */
-    max-width: 150px;
-    position: relative
+    position: relative;
+    max-width: 100px;
 }
 .play-album{
     text-align: center;
@@ -168,6 +166,7 @@ main{
     font-size: 50px;
     color: white;
 }
+
 
 
 

@@ -1,12 +1,13 @@
 /* DESKTOP DA 701px A 1100px */
 @media screen and (max-width: 1100px){
     .box-album{
-        width: calc(100% / 4 - 20px);
+        width: calc(100% /4 - 20px);
     }
     .cover-album{
-        max-width: 150px;
+        min-width: 150px;
     }
     .riga-album{
+        flex-wrap: wrap;
         justify-content: left;
     }
     
@@ -28,7 +29,7 @@
         justify-content: left;
     }
     
-}
+} 
 
 
 
