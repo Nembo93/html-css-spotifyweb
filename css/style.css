@@ -68,12 +68,19 @@ nav{
    font-size: .875rem; 
 }
 /* header/MENU NAV PLAYLIST */
+.menu-nav-playlist{
+    flex-grow: 1;
+}
 .menu-nav-playlist h5{
     margin-bottom: 5px;
 }
 .menu-nav-playlist > i{
     margin-bottom: 10px;
 }
+.playlist{
+    overflow-y: auto;
+}
+
 .playlist li{
     list-style: none;
     margin-bottom: 5px;
@@ -113,6 +120,7 @@ nav{
 .user-name{
     margin-left: 5px;
     font-size: 14px;
+    color: white;
 }
 /* FINE HEADER */
 
@@ -157,6 +165,7 @@ main{
 /* mai/ALBUM & PLAYLIST */
 .section-playlist-title{
     margin-bottom: 10px;
+    color: white;
 }
 .riga-album.album1{
     width: 100%;
@@ -185,6 +194,9 @@ main{
 }
 .album1, .album2, .album3{
     margin-bottom: 20px;
+}
+.titolo-album{
+    color: white;
 }
 /* FINE MAIN */
 

@@ -16,3 +16,52 @@
     transform: scale(1.2);
 }
 
+.select-wiew{
+    transition: color;
+}
+.select-wiew:hover{
+    color: white;
+}
+
+
+.main-menu>h5{
+    transition: color;
+}
+.main-menu>h5:hover{
+    color: white;
+}
+
+.menu-nav span{
+    transition: color;
+}
+.menu-nav span:hover{
+    color: white;
+}
+
+.menu-nav-playlist li{
+    transition: color;
+}
+.menu-nav-playlist li:hover{
+    color: white;
+}
+
+.footer-left-icon i{
+    transition: color;
+}
+.footer-left-icon i:hover{
+    color: white;
+}
+
+.footer-middle i{
+    transition: color;
+}
+.footer-middle i:hover{
+    color: white;
+}
+
+.footer-right i{
+    transition: color;
+}
+.footer-right i:hover{
+    color: white;
+}

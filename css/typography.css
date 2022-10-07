@@ -1,7 +1,7 @@
 /* TYPOGRAPHY */
 body{
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: gray;
 }
 
 .text-col-gray{
@@ -10,9 +10,15 @@ body{
 .text-col-white{
     color: white;
 }
+.text-col-white{
+    color: white;
+}
 
 /* UPGRADE BAR */
 .upgrade-bar a{
     text-decoration: none;
+    font-size: 10px;
+}
+.font-ten-pix{
     font-size: 10px;
 }
