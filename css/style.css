@@ -5,24 +5,11 @@
 }
 
 /* Debug */
-.deb-col-1{
-    background-color: pink;
-}
-.deb-col-2{
-    background-color: lightgreen;
-}
-.deb-col-3{
-    background-color: lightskyblue;
-}
-.deb-col-4{
-    background-color: blue;
-}
+
 .deb-col-5{
     background-color: gray;
 }
-.deb-text-white{
 
-}
 
 
 
@@ -53,7 +40,7 @@ header{
 
 /* header/NAV */
 nav{
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     height: calc(100% - 50px);
@@ -66,6 +53,16 @@ nav{
 }
 .nav-icon-text{
    font-size: .875rem; 
+}
+.menu-nav-item:first-child::before{ 
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 3px;
+    background-color: lightgreen;
+    position: absolute;
+    left: 10px;
+    border-radius: 2px;
 }
 /* header/MENU NAV PLAYLIST */
 .menu-nav-playlist{
@@ -158,11 +155,32 @@ main{
     width: 100%;
 }
 .main-menu{   
-    width: 60%;
-    justify-content: space-around;
+    width: 70%;
     flex-wrap: wrap;
 }
+.main-menu h5{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.on-evidence{
+    position: relative;
+}
+.main-menu h5:first-child::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 30px;
+    height: 4px;
+    background-color: lightgreen;
+    border-radius: 3px;
+}
 /* mai/ALBUM & PLAYLIST */
+.main-page > h2{
+    margin-top: 50px;
+}
 .section-playlist-title{
     margin-bottom: 10px;
     color: white;
@@ -171,7 +189,6 @@ main{
     width: 100%;
 }
 .box-album{
-    background-color: aqua;
     margin-left: 10px;
     margin-right: 10px;
     width: calc(100% / 6 - 20px);
@@ -230,7 +247,6 @@ footer{
 
 /* footer middle */
 /* footer middle/music bar */
-
 .footer-middle{
     width: 40%;
 }
@@ -241,8 +257,6 @@ footer{
     align-content: center;
     padding-top: 15px;
 }
-
-
 /* music bar bottom */
 .time-song{
     padding-top: 5px;
@@ -253,7 +267,19 @@ footer{
 .listen-bar{
     width: 60%;
     height: 5px;
-    background-color: red;
+    position: relative;
+}
+.listen-bar.bar1::after{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -7px;
+    left: 50px;
 }
 .total-time{
     width: 20%;
