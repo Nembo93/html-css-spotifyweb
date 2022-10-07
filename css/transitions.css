@@ -9,3 +9,10 @@
     filter: grayscale(3);
     filter: brightness(50%);
 }
+
+
+/* ON-HOVE ELEMENTS */
+.scale:hover{
+    transform: scale(1.2);
+}
+
